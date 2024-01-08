@@ -13,3 +13,6 @@ cd Release
 cmake ..
 cmake --build . --config Release
 ```
+
+TODO: How do we ensure signing / checksum for the binaries?
+TODO: GitHub Actions setup with verifiable builds?
