@@ -8,6 +8,8 @@ On Windows, Mac or Linux:
 ```bash
 git clone https://github.com/KhronosGroup/SPIRV-Cross
 cd SPIRV-Cross
-cmake .
+mkdir Release
+cd Release
+cmake ..
 cmake --build . --config Release
 ```
