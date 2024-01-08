@@ -15,6 +15,16 @@ SHA512 hash of .\dxc.exe:
 5fbd706bf493ef66b76bd76df2691c9145d9fa8e27836e2e7936f175fbcaf64a9a5031b01d04ff6e5880b8b6d999cbc1882d4af2d865aa01a5c60efca8e74344
 CertUtil: -hashfile command completed successfully.
 
+certutil -hashfile .\dxcompiler.dll SHA512
+SHA512 hash of .\dxcompiler.dll:
+a19675916adffeecc027cb0aaa913adb17caf67f2a7f6e60e97c3733ae87de2ad219e64f39a0a3f60b0c749e4331a8f65595a404e7a65117ba4363d68c072401
+CertUtil: -hashfile command completed successfully.
+
+certutil -hashfile .\dxil.dll SHA512
+SHA512 hash of .\dxil.dll:
+3d8c51ae549449b77eeca0139ef07448a3139bcde1b0c55dc4e9f13e39e1a78f51d357b7fff2b3c34b2360abda2b078c32369455a5ebfda16bdee71870a7b758
+CertUtil: -hashfile command completed successfully.
+
 ```
 
 ```sh
